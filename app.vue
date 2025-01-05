@@ -1,6 +1,6 @@
 <template>
+  <h1>Sinolux Film</h1>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtPage />
   </div>
 </template>
