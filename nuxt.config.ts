@@ -3,9 +3,5 @@ export default defineNuxtConfig({
 	compatibilityDate: "2024-11-01",
 	// devtools: { enabled: true },
 
-	modules: [
-		"@nuxt/content",
-		// troublesome for nix
-		"@unocss/nuxt",
-	],
+	modules: ["@nuxt/content", "@unocss/nuxt"],
 });
